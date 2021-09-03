@@ -1,0 +1,19 @@
+PORT=8000
+MONGO_URI ='mongodb+srv://TC:oluchi1990@cluster0-panjd.mongodb.net/edemy?retryWrites=true&w=majority'
+JWT_SECRET= 'TOCHUKWU1990'
+
+#aws
+AWS_ACCESS_KEY_ID=AKIAX24Y3JCTQ6SNJCQN
+AWS_SECRET_ACCESS_KEY=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
+AWS_REGION='us-east-2'
+AWS_API_VERSION='2010-12-01'
+#email
+EMAIL_FROM= idokotheodore@gmail.com
+
+
+#stripe
+STRIPE_SECRET =sk_test_51JNKl2IDsihcDiiKFznGxfJNi7yB87zcZpUBzkzoWbWG85BUviOrD07CodnX7nluzYQhwHPMr8YB84R3yoOPAmj700vJkTXWjs
+STRIPE_REDIRECT_URL = http://161.35.196.0/stripe/callback
+STRIPE_SETTINGS_REDIRECT=http://161.35.196.0/instructor/revenue
+STRIPE_SUCCESS_URL=http://161.35.196.0/stripe/success
+STRIPE_CANCEL_URL=http://161.35.196.0/stripe/cancel
